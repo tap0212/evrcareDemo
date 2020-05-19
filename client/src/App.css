@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  background-color: #e6e6e6;
+  height: 100vh;
+}
+h1{
+  margin-top: 40vh;
+  padding-top: 6vh;
+  font-weight: 400;
+}
+.note{
+  text-align: center;
+width: 60%;
+height: 20vh;
+margin-left: 20%;
+  border-radius: 50px;
+background: #e6e6e6;
+box-shadow:  20px 20px 60px #c4c4c4, 
+             -20px -20px 60px #ffffff;
+}
+
+@media only screen and (max-width:600px){
+  .note{
+    height: 30vh;
+  }
+}
